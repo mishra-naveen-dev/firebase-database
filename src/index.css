@@ -1,6 +1,41 @@
-body{
-  margin:0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color:rosybrown;
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rosybrown;
   color: #333;
+}
+.App {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+button {
+  background-color: aquamarine;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  background-color: #4caf50;
+}
+.button1,
+.button2 {
+  font-family: "Trebuchet MS";
+  background-color: aquamarine;
+  font-weight: bolder;
+  font-size: 19px;
+  padding: 10px;
+  text-decoration: antiquewhite;
+  flex-direction: inherit;
 }
